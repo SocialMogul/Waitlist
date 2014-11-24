@@ -33,13 +33,12 @@ gem 'fog'
 gem 'aws-sdk'
 gem 'devise'
 
-group :development do
-	gem 'better_errors' 
-	gem 'quiet_assets' 
-	gem 'rails_layout'
-	gem 'sqlite3'
-end
+gem 'better_errors' 
+gem 'quiet_assets' 
+gem 'rails_layout'
+gem 'sqlite3'
 
-	gem 'pg'
-	gem 'rails_12factor' 
-	gem 'unicorn'
+
+gem 'pg'
+gem 'rails_12factor' 
+gem 'unicorn'
