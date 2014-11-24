@@ -89,5 +89,4 @@ Rails.application.configure do
     user_name: ENV["GMAIL_USERNAME"], 
     password: ENV["GMAIL_PASSWORD"]
   }
-￼￼￼￼
 end
