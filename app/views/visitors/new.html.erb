@@ -34,9 +34,11 @@
         <div class="sign-up">
             <a href="" class="sign-up-button">Sign up</a>
             <div class="input-group">
-                <label for="">Enter your email address</label>
-                <input type="text" />
-                <button>Sign Up</button>
+                <%= simple_form_for @visitor do |f| %>
+                    <%= f.error_notification %>
+                    <%= f.input :email, label: false, :placeholder => 'Enter your email address' %>
+                <%= f.button :submit, "Sign up", :class => "submit" %>
+                <% end %>
             </div>
         </div>
     </div>

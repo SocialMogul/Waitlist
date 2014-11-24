@@ -13,7 +13,8 @@
 //= require jquery
 //= require jquery-ui
 //= require jquery_ujs
-//= require modernizr.custom.28468.js
+//= require modernizr.custom.28468
+//= require jquery.cslider
 //= require turbolinks
 //= require_tree .
 
